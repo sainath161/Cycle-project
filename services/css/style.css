@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #fff;
+    background-image: linear-gradient(#FFA384, #74BDCB);
+    background-image: linear-gradient(to bottom right, #ff7649, #24abc6);
+}
+.slider{
+    margin-bottom: 10px;
+    position: relative;
+}
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1.15);
+    opacity: 1;
+    background-color: #ccc;
+    background: -webkit-linear-gradient(to right, #0ad6a6, #08e4ad);
+    background: linear-gradient(to right, #0ad6a6, #08e4ad);
+    color: #fff;
+}
+
+.slider-card{
+    background-color: rgb(255, 119, 0);
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgba(206, 191, 191, 0.493);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    top: calc(50% - 25%);
+    right: 0;
+    opacity: 1;
+    font-size: 60px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    top: calc(50% - 25%);
+    left: 0;
+    opacity: 1;
+    font-size: 60px !important;
+    z-index: 1;
+}
+
+.text-center1{
+    text-align: center;
+    color: black;
+}
+
+.text-center2{
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 20%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.text-center2:hover{
+    color: red;
+}
+
+.owl-carousel img{
+    
+    width: 250;
+    height: auto;
+}
